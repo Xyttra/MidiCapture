@@ -1,0 +1,152 @@
+^C:\USERS\YUSUF\DOCUMENTS\ANTIGRAVITY WORKSPACES\MIDICAPTURE\BUILD\_DEPS\CLAP-SUBBUILD\CMAKEFILES\E298D2CA1044EA5F9E9280BEC83BA332\CLAP-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P "C:/Users/Yusuf/Documents/Antigravity Workspaces/MidiCapture/build/_deps/clap-subbuild/clap-populate-prefix/tmp/clap-populate-mkdirs.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Yusuf/Documents/Antigravity Workspaces/MidiCapture/build/_deps/clap-subbuild/clap-populate-prefix/src/clap-populate-stamp/Debug/clap-populate-mkdir"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\YUSUF\DOCUMENTS\ANTIGRAVITY WORKSPACES\MIDICAPTURE\BUILD\_DEPS\CLAP-SUBBUILD\CMAKEFILES\E298D2CA1044EA5F9E9280BEC83BA332\CLAP-POPULATE-DOWNLOAD.RULE
+setlocal
+cd "C:\Users\Yusuf\Documents\Antigravity Workspaces\MidiCapture\build\_deps"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "C:/Users/Yusuf/Documents/Antigravity Workspaces/MidiCapture/build/_deps/clap-subbuild/clap-populate-prefix/src/clap-populate-stamp/download-clap-populate.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "C:/Users/Yusuf/Documents/Antigravity Workspaces/MidiCapture/build/_deps/clap-subbuild/clap-populate-prefix/src/clap-populate-stamp/verify-clap-populate.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "C:/Users/Yusuf/Documents/Antigravity Workspaces/MidiCapture/build/_deps/clap-subbuild/clap-populate-prefix/src/clap-populate-stamp/extract-clap-populate.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Yusuf/Documents/Antigravity Workspaces/MidiCapture/build/_deps/clap-subbuild/clap-populate-prefix/src/clap-populate-stamp/Debug/clap-populate-download"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\YUSUF\DOCUMENTS\ANTIGRAVITY WORKSPACES\MIDICAPTURE\BUILD\_DEPS\CLAP-SUBBUILD\CMAKEFILES\E298D2CA1044EA5F9E9280BEC83BA332\CLAP-POPULATE-UPDATE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Yusuf/Documents/Antigravity Workspaces/MidiCapture/build/_deps/clap-subbuild/clap-populate-prefix/src/clap-populate-stamp/Debug/clap-populate-update"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\YUSUF\DOCUMENTS\ANTIGRAVITY WORKSPACES\MIDICAPTURE\BUILD\_DEPS\CLAP-SUBBUILD\CMAKEFILES\E298D2CA1044EA5F9E9280BEC83BA332\CLAP-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Yusuf/Documents/Antigravity Workspaces/MidiCapture/build/_deps/clap-subbuild/clap-populate-prefix/src/clap-populate-stamp/Debug/clap-populate-patch"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\YUSUF\DOCUMENTS\ANTIGRAVITY WORKSPACES\MIDICAPTURE\BUILD\_DEPS\CLAP-SUBBUILD\CMAKEFILES\E298D2CA1044EA5F9E9280BEC83BA332\CLAP-POPULATE-CONFIGURE.RULE
+setlocal
+cd "C:\Users\Yusuf\Documents\Antigravity Workspaces\MidiCapture\build\_deps\clap-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Yusuf/Documents/Antigravity Workspaces/MidiCapture/build/_deps/clap-subbuild/clap-populate-prefix/src/clap-populate-stamp/Debug/clap-populate-configure"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\YUSUF\DOCUMENTS\ANTIGRAVITY WORKSPACES\MIDICAPTURE\BUILD\_DEPS\CLAP-SUBBUILD\CMAKEFILES\E298D2CA1044EA5F9E9280BEC83BA332\CLAP-POPULATE-BUILD.RULE
+setlocal
+cd "C:\Users\Yusuf\Documents\Antigravity Workspaces\MidiCapture\build\_deps\clap-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Yusuf/Documents/Antigravity Workspaces/MidiCapture/build/_deps/clap-subbuild/clap-populate-prefix/src/clap-populate-stamp/Debug/clap-populate-build"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\YUSUF\DOCUMENTS\ANTIGRAVITY WORKSPACES\MIDICAPTURE\BUILD\_DEPS\CLAP-SUBBUILD\CMAKEFILES\E298D2CA1044EA5F9E9280BEC83BA332\CLAP-POPULATE-INSTALL.RULE
+setlocal
+cd "C:\Users\Yusuf\Documents\Antigravity Workspaces\MidiCapture\build\_deps\clap-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Yusuf/Documents/Antigravity Workspaces/MidiCapture/build/_deps/clap-subbuild/clap-populate-prefix/src/clap-populate-stamp/Debug/clap-populate-install"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\YUSUF\DOCUMENTS\ANTIGRAVITY WORKSPACES\MIDICAPTURE\BUILD\_DEPS\CLAP-SUBBUILD\CMAKEFILES\E298D2CA1044EA5F9E9280BEC83BA332\CLAP-POPULATE-TEST.RULE
+setlocal
+cd "C:\Users\Yusuf\Documents\Antigravity Workspaces\MidiCapture\build\_deps\clap-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Yusuf/Documents/Antigravity Workspaces/MidiCapture/build/_deps/clap-subbuild/clap-populate-prefix/src/clap-populate-stamp/Debug/clap-populate-test"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\YUSUF\DOCUMENTS\ANTIGRAVITY WORKSPACES\MIDICAPTURE\BUILD\_DEPS\CLAP-SUBBUILD\CMAKEFILES\34F48C7F3D2B2BC133A77A63199E0692\CLAP-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/Yusuf/Documents/Antigravity Workspaces/MidiCapture/build/_deps/clap-subbuild/CMakeFiles/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Yusuf/Documents/Antigravity Workspaces/MidiCapture/build/_deps/clap-subbuild/CMakeFiles/Debug/clap-populate-complete"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/Yusuf/Documents/Antigravity Workspaces/MidiCapture/build/_deps/clap-subbuild/clap-populate-prefix/src/clap-populate-stamp/Debug/clap-populate-done"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\YUSUF\DOCUMENTS\ANTIGRAVITY WORKSPACES\MIDICAPTURE\BUILD\_DEPS\CLAP-SUBBUILD\CMAKEFILES\13CDB39B4E461DFD6920E8722F9AC2A2\CLAP-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\YUSUF\DOCUMENTS\ANTIGRAVITY WORKSPACES\MIDICAPTURE\BUILD\_DEPS\CLAP-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Yusuf/Documents/Antigravity Workspaces/MidiCapture/build/_deps/clap-subbuild" "-BC:/Users/Yusuf/Documents/Antigravity Workspaces/MidiCapture/build/_deps/clap-subbuild" --check-stamp-file "C:/Users/Yusuf/Documents/Antigravity Workspaces/MidiCapture/build/_deps/clap-subbuild/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

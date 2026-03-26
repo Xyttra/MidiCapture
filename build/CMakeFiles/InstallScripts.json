@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/Yusuf/Documents/Antigravity Workspaces/MidiCapture/build/cmake_install.cmake",
+		"C:/Users/Yusuf/Documents/Antigravity Workspaces/MidiCapture/build/_deps/clap-build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

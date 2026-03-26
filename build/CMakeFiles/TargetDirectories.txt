@@ -1,0 +1,7 @@
+C:/Users/Yusuf/Documents/Antigravity Workspaces/MidiCapture/build/CMakeFiles/MidiCapture.dir
+C:/Users/Yusuf/Documents/Antigravity Workspaces/MidiCapture/build/CMakeFiles/INSTALL.dir
+C:/Users/Yusuf/Documents/Antigravity Workspaces/MidiCapture/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Yusuf/Documents/Antigravity Workspaces/MidiCapture/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Yusuf/Documents/Antigravity Workspaces/MidiCapture/build/_deps/clap-build/CMakeFiles/clap-tests.dir
+C:/Users/Yusuf/Documents/Antigravity Workspaces/MidiCapture/build/_deps/clap-build/CMakeFiles/INSTALL.dir
+C:/Users/Yusuf/Documents/Antigravity Workspaces/MidiCapture/build/_deps/clap-build/CMakeFiles/ALL_BUILD.dir

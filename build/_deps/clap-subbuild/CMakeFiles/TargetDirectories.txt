@@ -1,0 +1,3 @@
+C:/Users/Yusuf/Documents/Antigravity Workspaces/MidiCapture/build/_deps/clap-subbuild/CMakeFiles/clap-populate.dir
+C:/Users/Yusuf/Documents/Antigravity Workspaces/MidiCapture/build/_deps/clap-subbuild/CMakeFiles/ALL_BUILD.dir
+C:/Users/Yusuf/Documents/Antigravity Workspaces/MidiCapture/build/_deps/clap-subbuild/CMakeFiles/ZERO_CHECK.dir
