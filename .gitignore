@@ -1,0 +1,9 @@
+# Ignore the build directory
+build/
+.vs/
+out/
+
+# Ignore CMake cache and temp files
+CMakeCache.txt
+CMakeFiles/
+CMakeSettings.json
